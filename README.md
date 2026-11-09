@@ -1,47 +1,48 @@
-# 直播吧去广告 · Loon 插件
+# Loon 去广告插件合集
 
-实验版本 **v0.1.0**，依据 2026-11-09 的两份直播吧 HAR 编写。尚待 iOS 上的 Loon 实机确认去广告效果。
+集中维护适用于不同 App 的 Loon 去广告插件。各插件按 App 独立安装，统一在本仓库更新。
 
-## 安装
+## 插件目录
 
-在 Loon 的插件管理中添加以下远程地址并启用插件。
+| App | 插件 | 状态 | 使用说明 |
+| --- | --- | --- | --- |
+| 直播吧 | [zhibo8.plugin](https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/zhibo8.plugin) | v0.1.1 实验版，待实机确认 | [直播吧说明](docs/zhibo8.md) |
+
+目前收录直播吧。后续 App 的去广告插件继续加入本仓库。
+
+## 安装和更新
+
+在上方目录选择需要的插件，将插件的 Raw 地址添加到 Loon 的插件管理中并启用。脚本地址已写入插件配置。
+
+需要启用脚本和 MitM，并安装、信任 Loon 的 MitM 证书。具体版本要求和匹配域名见各插件说明。
+
+后续更新提交到 `main` 分支。在 Loon 中更新远程插件，并刷新对应的远程脚本缓存以获取更新。
+
+直播吧的安装地址如下。
 
 ```text
-https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-zhibo8-ads/main/zhibo8.plugin
+https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/zhibo8.plugin
 ```
 
-使用 Loon 3.5.1 (983) 或以上版本。确保脚本和 MitM 已启用，且 Loon 的 MitM 证书已安装并受信任。插件声明的解密域名为 `a.qiumibao.com`。
-
-插件使用固定远程脚本地址。
+## 仓库结构
 
 ```text
-https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-zhibo8-ads/main/scripts/zhibo8.js
+plugins/          各 App 的 Loon 插件配置
+scripts/          插件引用的响应处理脚本
+docs/             各插件的说明与版本记录
+zhibo8.plugin     直播吧历史安装路径的兼容入口
 ```
 
-## 工作方式
+新增插件使用 `plugins/<app>.plugin`、`scripts/<app>.js` 和 `docs/<app>.md`，并在首页目录添加条目。
 
-插件匹配 `a.qiumibao.com/activities/config.php` 的响应。
+## 已安装直播吧插件
 
-- 将 `advert_list` 中各广告位的 `enable` 设为 `false`。
-- 将 `advert_config.splash_bk`、`advert_config.inter_bk` 设为 `"disable"`。
-- 遇到无效 JSON 或结构不匹配时，沿用原响应。
+原仓库 `loon-zhibo8-ads` 已更名为 `loon-plugins`。根目录保留 `zhibo8.plugin` 兼容文件。新安装使用上方 `plugins/` 目录中的地址。维护直播吧时需同步更新正式配置与根目录兼容配置。
 
-抓包中 `advert_list` 包含 29 个广告位，涉及开屏、首页、插屏、评论、新闻与视频等位置。`"disable"` 的客户端处理方式和广告位关闭效果仍待实机确认。客户端已有广告缓存、SDK 默认配置或后续接口变化可能影响结果。
+## 问题反馈
 
-## 更新
-
-后续提交到 `main` 分支时，上述两个远程地址保持固定。在 Loon 中更新远程插件，并刷新对应的远程脚本缓存以获取最新代码。更新后重新启动直播吧，观察开屏、首页、新闻内页和视频等位置的表现。
-
-反馈问题时，可通过仓库 Issues 提供直播吧版本、Loon 版本、广告位置与出现步骤。如需提供 HAR，请先移除 Cookie、令牌和用户标识。
-
-## 版本记录
-
-### v0.1.0 · 2026-11-09
-
-- 首次发布广告配置响应改写。
-- 使用 GitHub Raw 地址提供插件与脚本更新。
+通过仓库 Issues 提供 App 名称和版本、Loon 版本、广告位置及出现步骤。HAR 和截图中的 Cookie、令牌、用户标识等个人数据需先移除。
 
 ## 参考
 
 - [Loon 插件文档](https://nsloon.app/docs/Plugin/)
-- [Loon 脚本绑定](https://github.com/loon0x00/loonmanual/blob/master/_autodocs/script-bindings.md)

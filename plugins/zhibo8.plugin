@@ -1,0 +1,13 @@
+#!name = 直播吧去广告（实验版）
+#!desc = v0.1.1 · 禁用直播吧广告配置中的广告位、开屏和插屏备选开关，实际效果待设备确认。
+#!author = CodeApe-Xiaoyin
+#!homepage = https://github.com/CodeApe-Xiaoyin/loon-plugins
+#!loon_version = 3.5.1(983)
+#!date = 2026-11-09
+#!tag = 去广告,直播吧
+
+[Script]
+response if ${url} ~= /^https?:\/\/a\.qiumibao\.com\/activities\/config\.php(?:\?|$)/ then script("https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/scripts/zhibo8.js") with requires_body=true, tag="直播吧广告配置"
+
+[Mitm]
+hostname = a.qiumibao.com
