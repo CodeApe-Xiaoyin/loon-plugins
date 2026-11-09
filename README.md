@@ -35,14 +35,6 @@ docs/             各插件的说明与版本记录
 
 新增插件使用 `plugins/<app>.plugin`、`scripts/<app>.js` 和 `docs/<app>.md`，并在首页目录添加条目。
 
-## 更换旧安装地址
-
-根目录的旧版 `zhibo8.plugin` 兼容入口已移除。使用过旧安装地址的用户，请在 Loon 中移除旧条目，使用上方 `plugins/` 目录中的地址重新添加。
-
-## 图标来源
-
-直播吧图标取自其 App Store 页面，存放在 `icons/zhibo8.jpg`，通过插件的 `#!icon` 字段引用。图标权利归对应权利人所有。[App Store 来源](https://apps.apple.com/cn/app/id1228058501)
-
 ## 问题反馈
 
 通过仓库 Issues 提供 App 名称和版本、Loon 版本、广告位置及出现步骤。HAR 和截图中的 Cookie、令牌、用户标识等个人数据需先移除。
