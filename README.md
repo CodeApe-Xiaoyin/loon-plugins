@@ -4,9 +4,9 @@
 
 ## 插件目录
 
-| App | 插件 | 状态 | 使用说明 |
-| --- | --- | --- | --- |
-| 直播吧 | [zhibo8.plugin](https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/zhibo8.plugin) | v0.1.1 实验版，待实机确认 | [直播吧说明](docs/zhibo8.md) |
+| 图标 | App | 插件 | 状态 | 使用说明 |
+| --- | --- | --- | --- | --- |
+| <img src="icons/zhibo8.jpg" width="32" height="32" alt="直播吧图标"> | 直播吧 | [zhibo8.plugin](https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/zhibo8.plugin) | v0.1.2 实验版，待实机确认 | [直播吧说明](docs/zhibo8.md) |
 
 目前收录直播吧。后续 App 的去广告插件继续加入本仓库。
 
@@ -29,15 +29,19 @@ https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/zhib
 ```text
 plugins/          各 App 的 Loon 插件配置
 scripts/          插件引用的响应处理脚本
+icons/            各 App 的插件图标
 docs/             各插件的说明与版本记录
-zhibo8.plugin     直播吧历史安装路径的兼容入口
 ```
 
 新增插件使用 `plugins/<app>.plugin`、`scripts/<app>.js` 和 `docs/<app>.md`，并在首页目录添加条目。
 
-## 已安装直播吧插件
+## 更换旧安装地址
 
-原仓库 `loon-zhibo8-ads` 已更名为 `loon-plugins`。根目录保留 `zhibo8.plugin` 兼容文件。新安装使用上方 `plugins/` 目录中的地址。维护直播吧时需同步更新正式配置与根目录兼容配置。
+根目录的旧版 `zhibo8.plugin` 兼容入口已移除。使用过旧安装地址的用户，请在 Loon 中移除旧条目，使用上方 `plugins/` 目录中的地址重新添加。
+
+## 图标来源
+
+直播吧图标取自其 App Store 页面，存放在 `icons/zhibo8.jpg`，通过插件的 `#!icon` 字段引用。图标权利归对应权利人所有。[App Store 来源](https://apps.apple.com/cn/app/id1228058501)
 
 ## 问题反馈
 

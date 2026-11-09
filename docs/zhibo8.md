@@ -1,6 +1,6 @@
 # 直播吧去广告 · Loon 插件
 
-实验版本 **v0.1.1**，依据 2026-11-09 的两份直播吧 HAR 编写。尚待 iOS 上的 Loon 实机确认去广告效果。
+实验版本 **v0.1.2**，依据 2026-11-09 的两份直播吧 HAR 编写。尚待 iOS 上的 Loon 实机确认去广告效果。
 
 ## 安装
 
@@ -36,10 +36,15 @@ https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/scripts/zhib
 
 ## 版本记录
 
+### v0.1.2 · 2026-11-09
+
+- 使用 `#!icon` 引用仓库中的直播吧官方 App Store 图标。
+- 移除根目录旧版兼容文件，统一使用 `plugins/zhibo8.plugin`。
+
 ### v0.1.1 · 2026-11-09
 
 - 迁入统一的 Loon 去广告插件合集，调整远程脚本地址。
-- 新安装入口为 `plugins/zhibo8.plugin`，根目录保留兼容入口。
+- 新安装入口调整为 `plugins/zhibo8.plugin`。
 
 ### v0.1.0 · 2026-11-09
 
