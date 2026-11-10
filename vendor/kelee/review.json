@@ -1,0 +1,1953 @@
+[
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/XiaojukejiCharge/XiaojukejiCharge_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/XiaojukejiCharge/XiaojukejiCharge_remove_ads.js",
+    "plugins": [
+      "XiaojukejiCharge_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "dynamic_code",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "10.190.4.172",
+      "100.69.238.49",
+      "api.udache.com",
+      "as.xiaojukeji.com",
+      "common.diditaxi.com.cn",
+      "dpubstatic.udache.com",
+      "energy-pre.xiaojukeji.com",
+      "energy.xiaojukeji.com",
+      "epower.xiaojukeji.com",
+      "gw-backup-pre.xiaojukeji.com",
+      "gw-backup.xiaojukeji.com",
+      "gw-test.intra.xiaojukeji.com",
+      "help.xiaojukeji.com",
+      "img-hxy021.didistatic.com",
+      "openapi.baidu.com",
+      "pay.diditaxi.com.cn",
+      "pay.udache.com",
+      "s3-gz01.didistatic.com",
+      "static-daily.am.xiaojukeji.com",
+      "static-pre.am.xiaojukeji.com",
+      "static.am.xiaojukeji.com",
+      "unipay_test.ectest.intra.xiaojukeji.com",
+      "v.didi.cn",
+      "view.didistatic.com",
+      "z.didi.cn"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/PICC_Insurance/PICC_Insurance_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/PICC_Insurance/PICC_Insurance_remove_ads.js",
+    "plugins": [
+      "PICC_Insurance_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/TestFlight/CaptureAccountToken.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/TestFlight/CaptureAccountToken.js",
+    "plugins": [
+      "Auto_Join_TF.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${a}"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/TestFlight/AutoJoinTF.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/TestFlight/AutoJoinTF.js",
+    "plugins": [
+      "Auto_Join_TF.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${a}",
+      "testflight.apple.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/TestFlight/AutoMonitorTF.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/TestFlight/AutoMonitorTF.js",
+    "plugins": [
+      "Auto_Join_TF.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${a}",
+      "raw.githubusercontent.com",
+      "testflight.apple.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js",
+    "plugins": [
+      "YouTube_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "github.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_request.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_request.js",
+    "plugins": [
+      "YouTube_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "github.com",
+      "init-stream.maasea.workers.dev"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/github.com/NSRingo/WeatherKit/releases/download/v3.1.0/response.bundle.js",
+    "source_url": "https://github.com/NSRingo/WeatherKit/releases/download/v3.1.0/response.bundle.js",
+    "plugins": [
+      "AppleWeatherEnhancer.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${i}`,this.headers={",
+      "api.caiyunapp.com",
+      "api.waqi.info",
+      "api2.waqi.info",
+      "caiyunapp.com",
+      "raw.githubusercontent.com",
+      "waqi.info",
+      "weatherkit.apple.com",
+      "www.caiyunapp.com",
+      "www.qweather.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/KebidaDushu/KebidaDushu_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/KebidaDushu/KebidaDushu_remove_ads.js",
+    "plugins": [
+      "KebidaDushu_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/12306/12306_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/12306/12306_remove_ads.js",
+    "plugins": [
+      "12306_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js",
+    "source_url": "https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js",
+    "plugins": [
+      "Sub-Store.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "dynamic_code",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "1.0.0.1",
+      "119.28.28.28",
+      "223.6.6.6",
+      "8.8.4.4",
+      "api.github.com",
+      "cdn3.iconfinder.com",
+      "dns.alidns.com",
+      "doh-pure.onedns.net",
+      "doh.pub",
+      "github.com",
+      "gitlab.com",
+      "ip-api.com",
+      "npms.io",
+      "peggyjs.org"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js",
+    "source_url": "https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js",
+    "plugins": [
+      "Sub-Store.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "dynamic_code",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "1.0.0.1",
+      "119.28.28.28",
+      "223.6.6.6",
+      "8.8.4.4",
+      "a.com",
+      "api.github.com",
+      "cdn3.iconfinder.com",
+      "dns.alidns.com",
+      "doh-pure.onedns.net",
+      "doh.pub",
+      "github.com",
+      "gitlab.com",
+      "ip-api.com",
+      "npms.io",
+      "peggyjs.org",
+      "sub-store.vercel.app",
+      "telegram.me"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js",
+    "source_url": "https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js",
+    "plugins": [
+      "Sub-Store.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "dynamic_code",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "1.0.0.1",
+      "119.28.28.28",
+      "223.6.6.6",
+      "8.8.4.4",
+      "api.github.com",
+      "cdn3.iconfinder.com",
+      "dns.alidns.com",
+      "doh-pure.onedns.net",
+      "doh.pub",
+      "github.com",
+      "gitlab.com",
+      "ip-api.com",
+      "npms.io",
+      "peggyjs.org"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/IThome/IThome_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/IThome/IThome_remove_ads.js",
+    "plugins": [
+      "IThome_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JQLang/Amap/updatable.jq",
+    "source_url": "https://kelee.one/Resource/JQLang/Amap/updatable.jq",
+    "plugins": [
+      "Amap_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JQLang/Amap/search_poi_detail.jq",
+    "source_url": "https://kelee.one/Resource/JQLang/Amap/search_poi_detail.jq",
+    "plugins": [
+      "Amap_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/DjDuoDuo/DjDuoDuo_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/DjDuoDuo/DjDuoDuo_remove_ads.js",
+    "plugins": [
+      "DjDuoDuo_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/VVebo/VVebo_repair.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/VVebo/VVebo_repair.js",
+    "plugins": [
+      "VVebo_repair.lpx"
+    ],
+    "review_flags": [
+      "persistent_storage"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/BaiduSearch/BaiduSearchHomePage_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/BaiduSearch/BaiduSearchHomePage_remove_ads.js",
+    "plugins": [
+      "BaiduSearchWebpage_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "m.baidu.com",
+      "ms.bdstatic.com",
+      "psstatic.cdn.bcebos.com",
+      "www.baidu.com",
+      "www.w3.org"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Baidu_input_method/Baidu_input_method_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Baidu_input_method/Baidu_input_method_remove_ads.js",
+    "plugins": [
+      "Baidu_input_method_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [
+      "raw.githubusercontent.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/kff/kff.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/kff/kff.js",
+    "plugins": [
+      "WexinMiniPrograms_Remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/ems/ems.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/ems/ems.js",
+    "plugins": [
+      "WexinMiniPrograms_Remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/xiaotucc/xiaotucc.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/xiaotucc/xiaotucc.js",
+    "plugins": [
+      "WexinMiniPrograms_Remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/FamilyMart/FamilyMart.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/FamilyMart/FamilyMart.js",
+    "plugins": [
+      "WexinMiniPrograms_Remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/lawson/lawson.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/lawson/lawson.js",
+    "plugins": [
+      "WexinMiniPrograms_Remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js",
+    "plugins": [
+      "WexinMiniPrograms_Remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [
+      "kelee.one"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/coco/coco.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/coco/coco.js",
+    "plugins": [
+      "WexinMiniPrograms_Remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/qingju/qingju.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/qingju/qingju.js",
+    "plugins": [
+      "WexinMiniPrograms_Remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/alittle-tea/alittle-tea.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/alittle-tea/alittle-tea.js",
+    "plugins": [
+      "WexinMiniPrograms_Remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/M_Stand/M_Stand.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/M_Stand/M_Stand.js",
+    "plugins": [
+      "WexinMiniPrograms_Remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/T3/T3.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/T3/T3.js",
+    "plugins": [
+      "WexinMiniPrograms_Remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/ming/ming.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/ming/ming.js",
+    "plugins": [
+      "WexinMiniPrograms_Remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/BooHee/BooHee_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/BooHee/BooHee_remove_ads.js",
+    "plugins": [
+      "BooHee_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Fileball/Fileball_mount.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Fileball/Fileball_mount.js",
+    "plugins": [
+      "Fileball_mount.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${type}.example.com",
+      "api-drive.mypikpak.com",
+      "api.aliyundrive.com",
+      "auth.aliyundrive.com",
+      "drive.quark.cn",
+      "user.mypikpak.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.request.js",
+    "source_url": "https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.request.js",
+    "plugins": [
+      "1.1.1.1.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${i}",
+      "api.cloudflare.com",
+      "api.cloudflareclient.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.response.js",
+    "source_url": "https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.response.js",
+    "plugins": [
+      "1.1.1.1.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${r}",
+      "api.cloudflare.com",
+      "api.cloudflareclient.com",
+      "cp.cloudflare.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/ShuQiCenterReader/ShuQiCenterReader_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/ShuQiCenterReader/ShuQiCenterReader_remove_ads.js",
+    "plugins": [
+      "ShuQiCenterReader_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JQLang/smzdm/home_smzdm_remove_ads.jq",
+    "source_url": "https://kelee.one/Resource/JQLang/smzdm/home_smzdm_remove_ads.jq",
+    "plugins": [
+      "smzdm_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js",
+    "plugins": [
+      "RedPaper_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "persistent_storage"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Weixin/Weixin_external_links_unlock.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Weixin/Weixin_external_links_unlock.js",
+    "plugins": [
+      "Weixin_external_links_unlock.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "spotify.link",
+      "web.archive.org"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WPS/WPS_checkin.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/WPS/WPS_checkin.js",
+    "plugins": [
+      "WPS_checkin.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "dynamic_code",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "account.wps.cn",
+      "aip.baidubce.com",
+      "api.day.app",
+      "api2.pushdeer.com",
+      "cdn.jsdelivr.net",
+      "personal-act.wps.cn",
+      "vip.wps.cn",
+      "vipapi.wps.cn"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Qbb/my.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Qbb/my.js",
+    "plugins": [
+      "Qbb_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Qbb/homepage.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Qbb/homepage.js",
+    "plugins": [
+      "Qbb_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js",
+    "source_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js",
+    "plugins": [
+      "Script-Hub.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "dynamic_code",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${i}",
+      "api.boxjs.app",
+      "cli.vuejs.org",
+      "github.com",
+      "local.text",
+      "new-issue.vuejs.org",
+      "quantumult.app",
+      "raw.githubusercontent.com",
+      "script.hub",
+      "t.me",
+      "unpkg.com",
+      "www.nsloon.com",
+      "www.w3.org"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js",
+    "source_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js",
+    "plugins": [
+      "Script-Hub.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "dynamic_code",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${i}",
+      "github.com",
+      "local.text",
+      "raw.githubusercontent.com",
+      "script.hub",
+      "t.me"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js",
+    "source_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js",
+    "plugins": [
+      "Script-Hub.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "dynamic_code",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${i}",
+      "local.text",
+      "t.me"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js",
+    "source_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js",
+    "plugins": [
+      "Script-Hub.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "dynamic_code",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${i}",
+      "cdn.jsdelivr.net"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/DubbingShow/DubbingShow_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/DubbingShow/DubbingShow_remove_ads.js",
+    "plugins": [
+      "DubbingShow_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js",
+    "plugins": [
+      "mobileClouds_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/AutoHome/AutoHome_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/AutoHome/AutoHome_remove_ads.js",
+    "plugins": [
+      "AutoHome_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js",
+    "plugins": [
+      "PuPuMall_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JQLang/Bilibili/tab_Bilibili_remove_ads.jq",
+    "source_url": "https://kelee.one/Resource/JQLang/Bilibili/tab_Bilibili_remove_ads.jq",
+    "plugins": [
+      "Bilibili_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [
+      "i0.hdslb.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JQLang/Bilibili/mine_Bilibili_remove_ads.jq",
+    "source_url": "https://kelee.one/Resource/JQLang/Bilibili/mine_Bilibili_remove_ads.jq",
+    "plugins": [
+      "Bilibili_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [
+      "i0.hdslb.com",
+      "www.bilibili.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_request_kokoryh.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_request_kokoryh.js",
+    "plugins": [
+      "Bilibili_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "bsbsb.top",
+      "github.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_response_kokoryh.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_response_kokoryh.js",
+    "plugins": [
+      "Bilibili_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "github.com",
+      "raw.githubusercontent.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Bilibili/Bilibili_json_kokoryh.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_json_kokoryh.js",
+    "plugins": [
+      "Bilibili_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "i0.hdslb.com",
+      "live.bilibili.com",
+      "member.bilibili.com",
+      "www.bilibili.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/FollowRSS/FollowRSS_checkin.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/FollowRSS/FollowRSS_checkin.js",
+    "plugins": [
+      "FollowRSS_checkin.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "api.follow.is"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/iMaiCai/iMaiCai_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/iMaiCai/iMaiCai_remove_ads.js",
+    "plugins": [
+      "iMaiCai_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Spotify/Spotify_response.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Spotify/Spotify_response.js",
+    "plugins": [
+      "Spotify_lyrics_translation.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${r}",
+      "github.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Spotify/Spotify_request.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Spotify/Spotify_request.js",
+    "plugins": [
+      "Spotify_lyrics_translation.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${r}",
+      "api.spotify.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Spotify/Translate_response.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Spotify/Translate_response.js",
+    "plugins": [
+      "Spotify_lyrics_translation.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${s}",
+      "api-free.deepl.com",
+      "api.deepl.com",
+      "clients5.google.com",
+      "fanyi-api.baidu.com",
+      "github.com",
+      "openapi.youdao.com",
+      "translate.google.com",
+      "translate.googleapis.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Spotify/External_Lyrics_response.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Spotify/External_Lyrics_response.js",
+    "plugins": [
+      "Spotify_lyrics_translation.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${s}",
+      "c.y.qq.com",
+      "github.com",
+      "lyric.music.qq.com",
+      "music.163.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/NeteaseNews/NeteaseNews_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/NeteaseNews/NeteaseNews_remove_ads.js",
+    "plugins": [
+      "NeteaseNews_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/MKZ/MKZ_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/MKZ/MKZ_remove_ads.js",
+    "plugins": [
+      "MKZ_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/iWallBiZhi/core_initialize.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/iWallBiZhi/core_initialize.js",
+    "plugins": [
+      "iWallBiZhi_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/iWallBiZhi/landing_initialize.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/iWallBiZhi/landing_initialize.js",
+    "plugins": [
+      "iWallBiZhi_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/iWallBiZhi/landing.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/iWallBiZhi/landing.js",
+    "plugins": [
+      "iWallBiZhi_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js",
+    "plugins": [
+      "Uki_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Bixin/common_tab.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Bixin/common_tab.js",
+    "plugins": [
+      "Bixin_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Bixin/my_page.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Bixin/my_page.js",
+    "plugins": [
+      "Bixin_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js",
+    "plugins": [
+      "NeteaseCloudMusic_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js",
+    "plugins": [
+      "Weibo_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/IPATool/AppStoreAPI.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/IPATool/AppStoreAPI.js",
+    "plugins": [
+      "IPATool.lpx"
+    ],
+    "review_flags": [
+      "network_api"
+    ],
+    "literal_http_hosts": [
+      "api.timbrd.com",
+      "apis.bilin.eu.org",
+      "auth.itunes.apple.com",
+      "buy.itunes.apple.com",
+      "itunes.apple.com",
+      "p25-buy.itunes.apple.com",
+      "raw.githubusercontent.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/IPATool/Installer.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/IPATool/Installer.js",
+    "plugins": [
+      "IPATool.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [
+      "localhost",
+      "www.apple.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Tieba/tieba-proto.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Tieba/tieba-proto.js",
+    "plugins": [
+      "Tieba_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "github.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/MeituMYXJ/MeituMYXJ_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/MeituMYXJ/MeituMYXJ_remove_ads.js",
+    "plugins": [
+      "MeituMYXJ_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Taobao/Taobao_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Taobao/Taobao_remove_ads.js",
+    "plugins": [
+      "Taobao_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/TV_Assistant/TV_Assistant_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/TV_Assistant/TV_Assistant_remove_ads.js",
+    "plugins": [
+      "TV_Assistant_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/PinDuoDuo/PinDuoDuo_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/PinDuoDuo/PinDuoDuo_remove_ads.js",
+    "plugins": [
+      "PinDuoDuo_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [
+      "kelee.one",
+      "pfile.pddpic.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/KuaiKanComic/KuaiKanComic_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/KuaiKanComic/KuaiKanComic_remove_ads.js",
+    "plugins": [
+      "KuaiKanComic_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/NodeLinkCheck/NodeLinkCheck.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/NodeLinkCheck/NodeLinkCheck.js",
+    "plugins": [
+      "NodeLinkCheck.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${a}",
+      "ip-api.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/RiskBird/RiskBird_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/RiskBird/RiskBird_remove_ads.js",
+    "plugins": [
+      "RiskBird_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/AliYunDrive/AliYunDrive_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/AliYunDrive/AliYunDrive_remove_ads.js",
+    "plugins": [
+      "AliYunDrive_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js",
+    "source_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js",
+    "plugins": [
+      "BoxJs.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "dynamic_code",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${a}",
+      "${prefix}",
+      "127.0.0.1",
+      "api.btstu.cn",
+      "avatars0.githubusercontent.com",
+      "avatars1.githubusercontent.com",
+      "avatars3.githubusercontent.com",
+      "cdn.jsdelivr.net",
+      "github.com",
+      "raw.githubusercontent.com",
+      "uploadbeta.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_request.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_request.js",
+    "plugins": [
+      "YouTubeSubtitlesTranslation.lpx"
+    ],
+    "review_flags": [
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "github.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_response.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_response.js",
+    "plugins": [
+      "YouTubeSubtitlesTranslation.lpx"
+    ],
+    "review_flags": [
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "github.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Composite_Subtitles_response.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Composite_Subtitles_response.js",
+    "plugins": [
+      "YouTubeSubtitlesTranslation.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_Translate_response.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_Translate_response.js",
+    "plugins": [
+      "YouTubeSubtitlesTranslation.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "api-free.deepl.com",
+      "api.cognitive.microsofttranslator.com",
+      "api.cognitive.microsofttranslator.us",
+      "api.deepl.com",
+      "api.translator.azure.cn",
+      "fanyi-api.baidu.com",
+      "github.com",
+      "openapi.youdao.com",
+      "translate.google.com",
+      "translate.googleapis.com",
+      "translation.googleapis.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/ColorfulClouds/ColorfulClouds_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/ColorfulClouds/ColorfulClouds_remove_ads.js",
+    "plugins": [
+      "ColorfulClouds_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/FlyerTea/FlyerTea_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/FlyerTea/FlyerTea_remove_ads.js",
+    "plugins": [
+      "FlyerTea_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/MaiMai/MaiMai_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/MaiMai/MaiMai_remove_ads.js",
+    "plugins": [
+      "MaiMai_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Chelaile/Chelaile_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Chelaile/Chelaile_remove_ads.js",
+    "plugins": [
+      "Chelaile_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Node_detection_tool/NetworkEntryAndExitQueries.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Node_detection_tool/NetworkEntryAndExitQueries.js",
+    "plugins": [
+      "Node_detection_tool.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${o}",
+      "1.0.0.1",
+      "119.28.28.28",
+      "127.0.0.1",
+      "223.6.6.6",
+      "8.8.4.4",
+      "admin-app.edifier.com",
+      "api-ipv4.ip.sb",
+      "api-ipv6.ip.sb",
+      "api-v3.${keya}${bay}.cn",
+      "api.bilibili.com",
+      "api.zhuishushenqi.com",
+      "api6.ipify.org`,",
+      "cip.cc",
+      "dashi.163.com",
+      "ip-api.com",
+      "ip-score.com",
+      "ip.im",
+      "ip.ip233.cn",
+      "ip.qtfm.cn",
+      "ip233.cn",
+      "ipinfo.io",
+      "ips.market.alicloudapi.com",
+      "ipservice.ws.126.net",
+      "ipv6.ddnspod.com`,",
+      "ipwhois.app",
+      "myip.ipip.net",
+      "rmb.${keyc}${keyd}.com.cn",
+      "speed.neu6.edu.cn",
+      "ua${keye}.wo${keyf}x.cn",
+      "v6.ident.me`,"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Node_detection_tool/LocationDetection.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Node_detection_tool/LocationDetection.js",
+    "plugins": [
+      "Node_detection_tool.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "ip-api.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Node_detection_tool/NodeUnlockDetection.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Node_detection_tool/NodeUnlockDetection.js",
+    "plugins": [
+      "Node_detection_tool.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "chat.openai.com",
+      "disney.api.edge.bamgrid.com",
+      "startup.core.indazn.com",
+      "us1-prod-direct.discoveryplus.com",
+      "www.disneyplus.com",
+      "www.google.com",
+      "www.netflix.com",
+      "www.paramountplus.com",
+      "www.youtube.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.panel.js",
+    "source_url": "https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.panel.js",
+    "plugins": [
+      "WARP_Node_Query.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${i}",
+      "162.159.36.1",
+      "2606:4700:4700::1111",
+      "api.cloudflare.com",
+      "api.cloudflareclient.com",
+      "cloudflare.com",
+      "raw.githubusercontent.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/NetEaseGodlike/NetEaseGodlike_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/NetEaseGodlike/NetEaseGodlike_remove_ads.js",
+    "plugins": [
+      "NetEaseGodlike_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/SodaMusic/SodaMusic_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/SodaMusic/SodaMusic_remove_ads.js",
+    "plugins": [
+      "SodaMusic_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Umetrip/Umetrip_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Umetrip/Umetrip_remove_ads.js",
+    "plugins": [
+      "Umetrip_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/MotorFans/MotorFans_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/MotorFans/MotorFans_remove_ads.js",
+    "plugins": [
+      "MotorFans_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [
+      "imgs3.58moto.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/CaixinMedia/CaixinMedia_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/CaixinMedia/CaixinMedia_remove_ads.js",
+    "plugins": [
+      "CaixinMedia_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Douyu/Douyu_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Douyu/Douyu_remove_ads.js",
+    "plugins": [
+      "Douyu_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JQLang/Reddit/Reddit_remove_ads.jq",
+    "source_url": "https://kelee.one/Resource/JQLang/Reddit/Reddit_remove_ads.jq",
+    "plugins": [
+      "Reddit_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Spotify/Spotify_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Spotify/Spotify_remove_ads.js",
+    "plugins": [
+      "Spotify_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/JD/JD_Price.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/JD/JD_Price.js",
+    "plugins": [
+      "JD_Price.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${a}",
+      "apapia-common.manmanbuy.com",
+      "apapia-history-weblogic.manmanbuy.com",
+      "item.jd.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/JD/JD_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/JD/JD_remove_ads.js",
+    "plugins": [
+      "JD_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js",
+    "plugins": [
+      "HUPU_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js",
+    "plugins": [
+      "BiliComic_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/ShoujiDesk/base_init.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/ShoujiDesk/base_init.js",
+    "plugins": [
+      "ShoujiDesk_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/BabyTree/BabyTree_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/BabyTree/BabyTree_remove_ads.js",
+    "plugins": [
+      "BabyTree_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Soul/Soul_remove_ads.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Soul/Soul_remove_ads.js",
+    "plugins": [
+      "Soul_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Weidian/getAppConfig.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Weidian/getAppConfig.js",
+    "plugins": [
+      "Weidian_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/Weidian/wallet.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/Weidian/wallet.js",
+    "plugins": [
+      "Weidian_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/Zip/DREAME/d6996fee95380affdf740ee44a85fbe9___UNI__EDB922E.zip",
+    "source_url": "https://kelee.one/Resource/Zip/DREAME/d6996fee95380affdf740ee44a85fbe9___UNI__EDB922E.zip",
+    "plugins": [
+      "DREAME_remove_ads.lpx"
+    ],
+    "review_flags": [
+      "binary_payload"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js",
+    "source_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js",
+    "plugins": [
+      "Script-Hub.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/echo-response.js",
+    "source_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/echo-response.js",
+    "plugins": [
+      "Script-Hub.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${i}"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js",
+    "source_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js",
+    "plugins": [
+      "Script-Hub.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${i}"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-header.js",
+    "source_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-header.js",
+    "plugins": [
+      "Script-Hub.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${i}"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.sessions.js",
+    "source_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.sessions.js",
+    "plugins": [
+      "BoxJs.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${h}"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.js",
+    "source_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.js",
+    "plugins": [
+      "BoxJs.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${h}"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.boxjs.js",
+    "source_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.boxjs.js",
+    "plugins": [
+      "BoxJs.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${h}"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js",
+    "source_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js",
+    "plugins": [
+      "BoxJs.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${a}"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.caches.js",
+    "source_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.caches.js",
+    "plugins": [
+      "BoxJs.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${h}"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.favapps.js",
+    "source_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.favapps.js",
+    "plugins": [
+      "BoxJs.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${h}"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.baks.js",
+    "source_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.baks.js",
+    "plugins": [
+      "BoxJs.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "${h}"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/dompling/Script/master/gist/commit.js",
+    "source_url": "https://raw.githubusercontent.com/dompling/Script/master/gist/commit.js",
+    "plugins": [
+      "BoxJs.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "api.github.com`,"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/dompling/Script/master/gist/restore.js",
+    "source_url": "https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js",
+    "plugins": [
+      "BoxJs.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "api.github.com`,"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/dompling/Script/master/gist/backup.js",
+    "source_url": "https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js",
+    "plugins": [
+      "BoxJs.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage",
+      "encoded_string",
+      "minified_lines"
+    ],
+    "literal_http_hosts": [
+      "127.0.0.1",
+      "api.btstu.cn",
+      "api.github.com`,",
+      "github.com",
+      "raw.githubusercontent.com",
+      "uploadbeta.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/xiaobailian67/Surge/refs/heads/main/SimpleExpressBeta.js",
+    "source_url": "https://raw.githubusercontent.com/xiaobailian67/Surge/refs/heads/main/SimpleExpressBeta.js",
+    "plugins": [
+      "IPATool.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/xiaobailian67/Surge/refs/heads/main/utils.js",
+    "source_url": "https://raw.githubusercontent.com/xiaobailian67/Surge/refs/heads/main/utils.js",
+    "plugins": [
+      "IPATool.lpx"
+    ],
+    "review_flags": [
+      "network_api",
+      "persistent_storage"
+    ],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/raw.githubusercontent.com/xiaobailian67/Surge/refs/heads/main/plist-complete.js",
+    "source_url": "https://raw.githubusercontent.com/xiaobailian67/Surge/refs/heads/main/plist-complete.js",
+    "plugins": [
+      "IPATool.lpx"
+    ],
+    "review_flags": [
+      "encoded_string"
+    ],
+    "literal_http_hosts": [
+      "www.apple.com"
+    ],
+    "review_status": "static_indicators_only"
+  },
+  {
+    "resource": "vendor/kelee/resources/kelee.one/Resource/JavaScript/PinDuoDuo/9410-b8806e870a26db7d.js",
+    "source_url": "https://kelee.one/Resource/JavaScript/PinDuoDuo/9410-b8806e870a26db7d.js",
+    "plugins": [
+      "PinDuoDuo_remove_ads.lpx"
+    ],
+    "review_flags": [],
+    "literal_http_hosts": [],
+    "review_status": "static_indicators_only"
+  }
+]

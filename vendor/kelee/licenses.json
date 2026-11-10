@@ -1,0 +1,54 @@
+[
+  {
+    "repository": "NSRingo/WeatherKit",
+    "license_status": "downloaded",
+    "spdx_id": "Apache-2.0",
+    "local_path": "licenses/NSRingo--WeatherKit--LICENSE",
+    "source_url": "https://github.com/NSRingo/WeatherKit/blob/main/LICENSE"
+  },
+  {
+    "repository": "sub-store-org/Sub-Store",
+    "license_status": "downloaded",
+    "spdx_id": "AGPL-3.0",
+    "local_path": "licenses/sub-store-org--Sub-Store--LICENSE",
+    "source_url": "https://github.com/sub-store-org/Sub-Store/blob/master/LICENSE"
+  },
+  {
+    "repository": "VirgilClyne/Cloudflare",
+    "license_status": "downloaded",
+    "spdx_id": "MIT",
+    "local_path": "licenses/VirgilClyne--Cloudflare--LICENSE",
+    "source_url": "https://github.com/Auraflare/1.1.1.1/blob/main/LICENSE"
+  },
+  {
+    "repository": "Script-Hub-Org/Script-Hub",
+    "license_status": "downloaded",
+    "spdx_id": "GPL-3.0",
+    "local_path": "licenses/Script-Hub-Org--Script-Hub--LICENSE",
+    "source_url": "https://github.com/Script-Hub-Org/Script-Hub/blob/main/LICENSE"
+  },
+  {
+    "repository": "chavyleung/scripts",
+    "license_status": "downloaded",
+    "spdx_id": "GPL-3.0",
+    "local_path": "licenses/chavyleung--scripts--LICENSE",
+    "source_url": "https://github.com/chavyleung/scripts/blob/master/LICENSE"
+  },
+  {
+    "repository": "dompling/Script",
+    "license_status": "not_found",
+    "source_url": "https://github.com/dompling/Script"
+  },
+  {
+    "repository": "xiaobailian67/Surge",
+    "license_status": "not_found",
+    "source_url": "https://github.com/xiaobailian67/Surge"
+  },
+  {
+    "repository": "luestr/IconResource",
+    "license_status": "downloaded",
+    "spdx_id": "NOASSERTION",
+    "local_path": "licenses/luestr--IconResource--LICENSE",
+    "source_url": "https://github.com/luestr/IconResource/blob/main/LICENSE"
+  }
+]

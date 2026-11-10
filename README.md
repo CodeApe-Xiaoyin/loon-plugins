@@ -8,7 +8,11 @@
 | --- | --- | --- | --- | --- |
 | <img src="icons/zhibo8.jpg" width="32" height="32" alt="直播吧图标"> | 直播吧 | [zhibo8.plugin](https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/zhibo8.plugin) | v0.1.2 实验版，待实机确认 | [直播吧说明](docs/zhibo8.md) |
 
-目前收录直播吧。后续 App 的去广告插件继续加入本仓库。
+本仓库维护直播吧插件，并归档可莉插件中心的 275 个明文插件配置。
+
+[查看全部上游插件快照](plugins/kelee/README.md) · [快照说明与来源](vendor/kelee/README.md) · [静态检查标记](vendor/kelee/REVIEW.md)
+
+上游快照的安装链接固定到 `kelee-snapshot-2026-11-10` 标签，已发现的静态脚本与资源从本仓库读取。详细安全审阅和设备验证仍待逐项完成，资源缺失项已在目录标记。
 
 ## 安装和更新
 
@@ -31,6 +35,7 @@ plugins/          各 App 的 Loon 插件配置
 scripts/          插件引用的响应处理脚本
 icons/            各 App 的插件图标
 docs/             各插件的说明与版本记录
+vendor/kelee/     上游原件、依赖、来源清单与许可文本
 ```
 
 新增插件使用 `plugins/<app>.plugin`、`scripts/<app>.js` 和 `docs/<app>.md`，并在首页目录添加条目。
