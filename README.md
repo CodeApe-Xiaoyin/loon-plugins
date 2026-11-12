@@ -8,13 +8,13 @@
 | --- | --- | --- | --- | --- |
 | <img src="icons/zhibo8.jpg" width="32" height="32" alt="直播吧图标"> | 直播吧 | [Zhibo8_remove_ads.plugin](https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/kelee/Zhibo8_remove_ads.plugin) | v0.2.0 合并版 · 可莉🅥、落痕 | [直播吧说明](docs/zhibo8.md) |
 
-本仓库维护直播吧插件，并归档可莉插件中心的 275 个明文插件配置。
+本仓库维护直播吧插件，并归档可莉插件中心的 272 个明文插件配置。
 
 [查看全部上游插件快照](plugins/kelee/README.md) · [快照说明与来源](vendor/kelee/README.md) · [静态检查标记](vendor/kelee/REVIEW.md)
 
 [插件更新记录](CHANGELOG.md) 按日期记录各插件版本、针对的问题、具体改动和验证结果。每次更新同时修改插件的 `#!date`。
 
-上游快照的安装链接固定到 `kelee-snapshot-2026-11-10` 标签，已发现的静态脚本与资源从本仓库读取。直播吧合并版使用 `main` 分支地址，由可莉规则与落痕广告配置脚本组成。详细安全审阅和设备验证仍待逐项完成，资源缺失项已在目录标记。
+上游快照的安装链接固定到 `kelee-snapshot-2026-11-10` 标签，已发现的静态脚本与资源从本仓库读取。直播吧合并版使用 `main` 分支地址，由可莉规则与落痕广告配置脚本组成。详细安全审阅和设备验证仍待逐项完成。
 
 ## 安装和更新
 

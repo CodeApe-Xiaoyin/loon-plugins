@@ -32,18 +32,6 @@
 | [VVebo_repair.js](resources/kelee.one/Resource/JavaScript/VVebo/VVebo_repair.js) | 持久化存储 | VVebo时间线修复 |
 | [BaiduSearchHomePage_remove_ads.js](resources/kelee.one/Resource/JavaScript/BaiduSearch/BaiduSearchHomePage_remove_ads.js) | 压缩代码 | 百度网页去广告 |
 | [Baidu_input_method_remove_ads.js](resources/kelee.one/Resource/JavaScript/Baidu_input_method/Baidu_input_method_remove_ads.js) | 基础静态扫描 | 百度输入法去广告 |
-| [kff.js](resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/kff/kff.js) | 基础静态扫描 | 微信小程序去广告 |
-| [ems.js](resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/ems/ems.js) | 基础静态扫描 | 微信小程序去广告 |
-| [xiaotucc.js](resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/xiaotucc/xiaotucc.js) | 基础静态扫描 | 微信小程序去广告 |
-| [FamilyMart.js](resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/FamilyMart/FamilyMart.js) | 基础静态扫描 | 微信小程序去广告 |
-| [lawson.js](resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/lawson/lawson.js) | 基础静态扫描 | 微信小程序去广告 |
-| [chayanyuese_remove_ads.js](resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js) | 基础静态扫描 | 微信小程序去广告 |
-| [coco.js](resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/coco/coco.js) | 基础静态扫描 | 微信小程序去广告 |
-| [qingju.js](resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/qingju/qingju.js) | 基础静态扫描 | 微信小程序去广告 |
-| [alittle-tea.js](resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/alittle-tea/alittle-tea.js) | 基础静态扫描 | 微信小程序去广告 |
-| [M_Stand.js](resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/M_Stand/M_Stand.js) | 基础静态扫描 | 微信小程序去广告 |
-| [T3.js](resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/T3/T3.js) | 基础静态扫描 | 微信小程序去广告 |
-| [ming.js](resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/ming/ming.js) | 基础静态扫描 | 微信小程序去广告 |
 | [BooHee_remove_ads.js](resources/kelee.one/Resource/JavaScript/BooHee/BooHee_remove_ads.js) | 基础静态扫描 | 薄荷健康去广告 |
 | [Fileball_mount.js](resources/kelee.one/Resource/JavaScript/Fileball/Fileball_mount.js) | 网络请求 API、持久化存储、编码字符串、压缩代码 | Fileball网盘挂载 |
 | [1.1.1.1.request.js](resources/raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.request.js) | 网络请求 API、持久化存储、压缩代码 | 1.1.1.1配置管理 |

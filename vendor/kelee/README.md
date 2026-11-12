@@ -1,8 +1,8 @@
 # 可莉资源快照
 
-2026-11-10 从作者插件中心目录获取全部 275 个插件配置。作者站点在本次下载时提供的配置全部为明文。
+当前目录提供 272 个插件配置，来源为 2026-11-10 采集的作者插件中心明文配置。
 
-本快照下载了 400 个资源文件，另外 4 个上游资源返回 404。272 个配置的已发现静态依赖完整，3 个存在缺失项。共有 73 个配置引用 JavaScript。
+当前资源目录包含 386 个资源文件。共有 70 个上游配置引用 JavaScript。
 
 [打开插件目录](../../plugins/kelee/README.md) · [静态检查标记](REVIEW.md) · [SHA-256 与来源清单](manifest.json)
 
@@ -11,24 +11,13 @@
 - `originals/` 保存下载时的原始插件字节。
 - `resources/` 保存安装副本使用的静态资源，已发现的下一层静态资源地址也改为本仓库快照地址。
 - `original-resources/` 保存经过地址替换的资源所对应的上游原件。其余资源与上游字节一致。
-- `catalog.upstream.json` 保存原站目录和作者署名信息。
-- `manifest.json` 记录原地址、SHA-256、镜像路径、下载状态、改动说明和缺失依赖。
+- `catalog.json` 保存当前目录的上游条目和作者署名信息。
+- `manifest.json` 记录原地址、SHA-256、镜像路径、下载状态和改动说明。
 - `licenses/` 保存可获取的依赖仓库许可文本。
 
 安装副本位于 `plugins/kelee/`，使用 `kelee-snapshot-2026-11-10` 标签固定资源版本。目录页的安装链接也使用同一个标签。后续新增快照使用新标签，用户通过新版本链接更新。
 
 `manifest.json` 中的镜像哈希与路径对应上述固定标签。2026-11-12 起，`main` 分支的直播吧条目由可莉规则与落痕广告配置脚本合并维护，使用目录页中单独标注的合并版地址，修改记录见 `docs/zhibo8.md`。
-
-## 资源缺失
-
-| 上游资源 | 受影响配置 | 下载结果 |
-| --- | --- | --- |
-| `https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/EasyBike.png` | 哈罗去广告 | HTTP Error 404: Not Found |
-| `https://kelee.one/Resource/JavaScript/EasyBike/mobileconfig-gateway.js` | 哈罗去广告 | HTTP Error 404: Not Found |
-| `https://kelee.one/Resource/JavaScript/CommonScript/replace-body.js` | 腾讯视频去广告 | HTTP Error 404: Not Found |
-| `https://kelee.one/Resource/Script/WexinMiniPrograms/chayanyuese/cyys1.jpg` | 微信小程序去广告 | HTTP Error 404: Not Found |
-
-缺失资源在安装副本中同样改指向本仓库预期路径，目录页标记为待修复。
 
 ## 审阅范围
 

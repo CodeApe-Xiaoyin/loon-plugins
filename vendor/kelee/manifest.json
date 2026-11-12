@@ -2,7 +2,7 @@
   "snapshot_date": "2026-11-10",
   "snapshot_ref": "kelee-snapshot-2026-11-10",
   "catalog_url": "https://hub.kelee.one/list.json",
-  "catalog_sha256": "a0906f7b643cfa3fb46bb8cf8f475d741529c2da9f8b3205954ea94580fec185",
+  "catalog_sha256": "905338e7d4e59a1cc161e4ac69b55902c537a6efbab476a6f858caea9df9979b",
   "download_user_agent": "Loon/787 CFNetwork/1498.700.2 Darwin/23.6.0",
   "plugins": [
     {
@@ -3630,39 +3630,6 @@
       "security_review": "pending"
     },
     {
-      "name": "哈罗去广告",
-      "source_url": "https://kelee.one/Tool/Loon/Lpx/EasyBike_remove_ads.lpx",
-      "filename": "EasyBike_remove_ads.lpx",
-      "tags": [
-        "去广告"
-      ],
-      "authors": [
-        {
-          "name": "可莉🅥",
-          "homepage": "https://github.com/luestr/ProxyResource/blob/main/README.md"
-        }
-      ],
-      "catalog_date": "2026-10-02 13:57:49",
-      "status": "plaintext",
-      "bytes": 687,
-      "sha256": "be91c7e3c5e99586fb76b63b1cfe924f7c83e98af730fe65a6c521f8f901fddf",
-      "final_url": "https://kelee.one/Tool/Loon/Lpx/EasyBike_remove_ads.lpx",
-      "content_type": "application/octet-stream",
-      "original_path": "vendor/kelee/originals/EasyBike_remove_ads.lpx",
-      "mirror_path": "plugins/kelee/EasyBike_remove_ads.plugin",
-      "mirror_sha256": "f6ac608471db80ec98fa78baa0020388826d63ab32d948fb03ca8cd3a18303d4",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/plugins/kelee/EasyBike_remove_ads.plugin",
-      "dependency_status": "incomplete",
-      "missing_resources": [
-        "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/EasyBike.png",
-        "https://kelee.one/Resource/JavaScript/EasyBike/mobileconfig-gateway.js"
-      ],
-      "script_resource_count": 1,
-      "mitm_hosts": "mobileconfig-gateway.hellobike.com",
-      "review_flags": [],
-      "security_review": "pending"
-    },
-    {
       "name": "航旅纵横去广告",
       "source_url": "https://kelee.one/Tool/Loon/Lpx/Umetrip_remove_ads.lpx",
       "filename": "Umetrip_remove_ads.lpx",
@@ -6238,38 +6205,6 @@
       "security_review": "pending"
     },
     {
-      "name": "腾讯视频去广告",
-      "source_url": "https://kelee.one/Tool/Loon/Lpx/Tencent_Video_remove_ads.lpx",
-      "filename": "Tencent_Video_remove_ads.lpx",
-      "tags": [
-        "去广告"
-      ],
-      "authors": [
-        {
-          "name": "RuCu6",
-          "homepage": "https://github.com/RuCu6"
-        }
-      ],
-      "catalog_date": "2026-10-02 13:57:49",
-      "status": "plaintext",
-      "bytes": 1751,
-      "sha256": "f3fe4f3012d77c56241bf1a076deeeadfb32193d8b3818b0861675641384c60c",
-      "final_url": "https://kelee.one/Tool/Loon/Lpx/Tencent_Video_remove_ads.lpx",
-      "content_type": "application/octet-stream",
-      "original_path": "vendor/kelee/originals/Tencent_Video_remove_ads.lpx",
-      "mirror_path": "plugins/kelee/Tencent_Video_remove_ads.plugin",
-      "mirror_sha256": "2c2bd13d67db6662125daa793dcbf4d6dda2e3a1d22248cc9d79b83c29ce92ea",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/plugins/kelee/Tencent_Video_remove_ads.plugin",
-      "dependency_status": "incomplete",
-      "missing_resources": [
-        "https://kelee.one/Resource/JavaScript/CommonScript/replace-body.js"
-      ],
-      "script_resource_count": 1,
-      "mitm_hosts": "vv.video.qq.com",
-      "review_flags": [],
-      "security_review": "pending"
-    },
-    {
       "name": "腾讯文档去广告",
       "source_url": "https://kelee.one/Tool/Loon/Lpx/TXDocs_remove_ads.lpx",
       "filename": "TXDocs_remove_ads.lpx",
@@ -6946,38 +6881,6 @@
         "network_api",
         "persistent_storage"
       ],
-      "security_review": "pending"
-    },
-    {
-      "name": "微信小程序去广告",
-      "source_url": "https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx",
-      "filename": "WexinMiniPrograms_Remove_ads.lpx",
-      "tags": [
-        "去广告"
-      ],
-      "authors": [
-        {
-          "name": "可莉🅥",
-          "homepage": "https://github.com/luestr/ProxyResource/blob/main/README.md"
-        }
-      ],
-      "catalog_date": "2026-10-02 13:57:49",
-      "status": "plaintext",
-      "bytes": 19553,
-      "sha256": "a3e17aa9fa533f226fab0d178a3f1a7061f9833348af757dc14c03ef17469f20",
-      "final_url": "https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx",
-      "content_type": "application/octet-stream",
-      "original_path": "vendor/kelee/originals/WexinMiniPrograms_Remove_ads.lpx",
-      "mirror_path": "plugins/kelee/WexinMiniPrograms_Remove_ads.plugin",
-      "mirror_sha256": "fdd66dd9578bf134ac308c9db51fd3be2de8de0abe880c386535bb7b8549a792",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/plugins/kelee/WexinMiniPrograms_Remove_ads.plugin",
-      "dependency_status": "incomplete",
-      "missing_resources": [
-        "https://kelee.one/Resource/Script/WexinMiniPrograms/chayanyuese/cyys1.jpg"
-      ],
-      "script_resource_count": 12,
-      "mitm_hosts": "3pp.starbucks.com.cn, aag.enmonster.com, activity.yonghuivip.com, ad.maoyan.com, ad.xiaotucc.com, ads.ishansong.com, alittle-tea.oss-cn-shanghai.aliyuncs.com, api-fouth-mem.huazhu.com, api-marketing.zhinengxiyifang.cn, api.hellobike.com, api.hengdianfilm.com, api.hongyibo.com.cn, api.kuaidihelp.com, api.maoyan.com, api.mcd.cn, api.pinduoduo.com, api.prod.dj.mstand.cn, api.songguo7.com, api.yonghuivip.com, apiproxy.zuche.com, apis.alenable.com, app.95504.net, app.homeinns.com, applets.jtexpress.com.cn, appuser-static.huolala.cn, as.xiaojukeji.com, capis*.didapinche.com, cappapi.alittle-tea.com, cbd-gateway-service-applets.hualala.com, ccmsupport-sz.tenpay.com, coco-com.e.verystar.net, creditcardapp.bankcomm.com, customer-app.sto.cn, daijia.kuaidadi.com, dock.tenchii.com, dsp.fcbox.com, file.dian.so, flow.dmall.com, fscdn.zto.com, gw-passenger-wap.01zhuanche.com, hdgateway.zto.com, htwkop.xiaojukeji.com, images.qmai.cn, lawsonapi.yorentown.com, m.ctrip.com, mapi.xiaotucc.com, mbmodule-openapi.paas.cmbchina.com, member.lxjchina.com.cn, miniapp.sexytea2013.com, minicap.caocaokeji.cn, minifm.maxxipoint.com, minipro.95504.net, miniprogram.ishansong.com, mkt-gateway.tuhu.cn, mobile-api.imlaidian.com, mxsa.mxbc.net, newton.gumingnc.com, passenger.t3go.cn, passengerapi.saicmobility.com, plt.yorentown.com, qapi.huolala.cn, r2.gzyct.com, res.hongyibo.com.cn, res.pizzahut.com.cn, s.jiediankeji.com, saas-ad.cloudpnr.com, sauron-report.yonghuivip.com, smarket.dian.so, sto-customer-app.oss-cn-shanghai.aliyuncs.com, supplier-api.imdada.cn, suyun-guest.daojia.com, tbgapplet.carlsberg.asia, tm-api.pin-dao.cn, ucmp.sf-express.com, ump.ems.com.cn, vod-movie.maoyan.com, webapi.qmai.cn, webchatapp.fcbox.com, wechat-api.i-xiaoma.com.cn, www.deppon.com, wx.bthhotels.com, wx.maoyan.com, wxapp.bestwehotel.com, wxproj.seeyouyima.com, wxs-weixin.sd.zhumanggroup.com, mcsp.cloudpnr.com, api.szbgcx.cn, rms.meituan.com, chong.qq.com, wx.online-cmcc.cn, wx.10086.cn, ne.gdsz.sinopec.com, mobile.12306.cn",
-      "review_flags": [],
       "security_review": "pending"
     },
     {
@@ -9651,254 +9554,6 @@
       "mirror_path": "vendor/kelee/resources/raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/XunLei.png",
       "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/XunLei.png",
       "mirror_sha256": "ec96b2e496ab5bbab54a8d5a6051c64c7c09fd530ceab308f9d59ead59e8c090"
-    },
-    {
-      "source_url": "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/WeixinMiniPrograms.png",
-      "kinds": [
-        "icon"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/WeixinMiniPrograms.png",
-      "final_url": "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/WeixinMiniPrograms.png",
-      "content_type": "image/png",
-      "bytes": 5483,
-      "sha256": "ee2690923d094a1a05cb2e0e7836f94a9e9a9ada390e729d374ee59d1f10b6b0",
-      "mirror_path": "vendor/kelee/resources/raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/WeixinMiniPrograms.png",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/WeixinMiniPrograms.png",
-      "mirror_sha256": "ee2690923d094a1a05cb2e0e7836f94a9e9a9ada390e729d374ee59d1f10b6b0"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/kff/kff.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/kff/kff.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/kff/kff.js",
-      "content_type": "application/javascript",
-      "bytes": 1169,
-      "sha256": "8453c73e9412fd99396afbfea14e7d26c46936da1650603b6f2433cda18cbf2c",
-      "review_flags": [],
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/kff/kff.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/kff/kff.js",
-      "mirror_sha256": "8453c73e9412fd99396afbfea14e7d26c46936da1650603b6f2433cda18cbf2c"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/ems/ems.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/ems/ems.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/ems/ems.js",
-      "content_type": "application/javascript",
-      "bytes": 196,
-      "sha256": "2208e4945d8781e5bc9d20a436fc141629a7e4dc9fd516f9fe917196010cf5bc",
-      "review_flags": [],
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/ems/ems.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/ems/ems.js",
-      "mirror_sha256": "2208e4945d8781e5bc9d20a436fc141629a7e4dc9fd516f9fe917196010cf5bc"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/xiaotucc/xiaotucc.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/xiaotucc/xiaotucc.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/xiaotucc/xiaotucc.js",
-      "content_type": "application/javascript",
-      "bytes": 356,
-      "sha256": "a10131a49267ce2cdd17c7c4d783eb64c8aa943b83ee4dcadb846ccd2c4bbb1b",
-      "review_flags": [],
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/xiaotucc/xiaotucc.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/xiaotucc/xiaotucc.js",
-      "mirror_sha256": "a10131a49267ce2cdd17c7c4d783eb64c8aa943b83ee4dcadb846ccd2c4bbb1b"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/FamilyMart/FamilyMart.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/FamilyMart/FamilyMart.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/FamilyMart/FamilyMart.js",
-      "content_type": "application/javascript",
-      "bytes": 99,
-      "sha256": "e25457f43eacfbf27ca8229445e69f60f7562ece723b5ebaf07969c0ebf75e1c",
-      "review_flags": [],
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/FamilyMart/FamilyMart.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/FamilyMart/FamilyMart.js",
-      "mirror_sha256": "e25457f43eacfbf27ca8229445e69f60f7562ece723b5ebaf07969c0ebf75e1c"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/lawson/lawson.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/lawson/lawson.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/lawson/lawson.js",
-      "content_type": "application/javascript",
-      "bytes": 145,
-      "sha256": "3d57d6ae9070934eef3513e2a4b640fad9dd5076fbbc6c471994bd3d790068f1",
-      "review_flags": [],
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/lawson/lawson.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/lawson/lawson.js",
-      "mirror_sha256": "3d57d6ae9070934eef3513e2a4b640fad9dd5076fbbc6c471994bd3d790068f1"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js",
-      "content_type": "application/javascript",
-      "bytes": 331,
-      "sha256": "4b7f857caa810648f7be584e916ceffb9c12dd3b2ce7766ed5bd605646e2a4d1",
-      "review_flags": [],
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js",
-      "original_copy": "vendor/kelee/original-resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js",
-      "modification": "Known static dependency URLs changed to the immutable snapshot tag",
-      "mirror_sha256": "e951f95bbf86cc74eeb9e17a234eae9b777a63d29a5143df08f12f48a8a0942a"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/coco/coco.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/coco/coco.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/coco/coco.js",
-      "content_type": "application/javascript",
-      "bytes": 145,
-      "sha256": "dc9a1915eed8f6f760a8f3a03f5e2f5a0f346373693ae4ac2e0c5dbd90fd46b3",
-      "review_flags": [],
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/coco/coco.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/coco/coco.js",
-      "mirror_sha256": "dc9a1915eed8f6f760a8f3a03f5e2f5a0f346373693ae4ac2e0c5dbd90fd46b3"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/qingju/qingju.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/qingju/qingju.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/qingju/qingju.js",
-      "content_type": "application/javascript",
-      "bytes": 106,
-      "sha256": "8664e7a22b21aaa8546ec167e3a43fee7ebd2c00552a126212720b09a4819bf8",
-      "review_flags": [],
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/qingju/qingju.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/qingju/qingju.js",
-      "mirror_sha256": "8664e7a22b21aaa8546ec167e3a43fee7ebd2c00552a126212720b09a4819bf8"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/alittle-tea/alittle-tea.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/alittle-tea/alittle-tea.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/alittle-tea/alittle-tea.js",
-      "content_type": "application/javascript",
-      "bytes": 88,
-      "sha256": "c765215071712fa0c0c0ef3719263fff81d4a1ce0189f8bc0861aa721657a44c",
-      "review_flags": [],
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/alittle-tea/alittle-tea.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/alittle-tea/alittle-tea.js",
-      "mirror_sha256": "c765215071712fa0c0c0ef3719263fff81d4a1ce0189f8bc0861aa721657a44c"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/M_Stand/M_Stand.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/M_Stand/M_Stand.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/M_Stand/M_Stand.js",
-      "content_type": "application/javascript",
-      "bytes": 498,
-      "sha256": "5d6f163842ce53eb034fa01c244f6482fedd2f5d56b7c206c25d6f11c21e805f",
-      "review_flags": [],
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/M_Stand/M_Stand.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/M_Stand/M_Stand.js",
-      "mirror_sha256": "5d6f163842ce53eb034fa01c244f6482fedd2f5d56b7c206c25d6f11c21e805f"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/T3/T3.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/T3/T3.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/T3/T3.js",
-      "content_type": "application/javascript",
-      "bytes": 91,
-      "sha256": "ab1ca9af4dd9b294f585335856de51d6df2b61c31d9a3d1982a5b091355da25a",
-      "review_flags": [],
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/T3/T3.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/T3/T3.js",
-      "mirror_sha256": "ab1ca9af4dd9b294f585335856de51d6df2b61c31d9a3d1982a5b091355da25a"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/ming/ming.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/ming/ming.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/ming/ming.js",
-      "content_type": "application/javascript",
-      "bytes": 84,
-      "sha256": "bd0f4e67ae73fdd083b10c1e802912d8c9ade1b2b14a0dead865d7af0b90d991",
-      "review_flags": [],
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/ming/ming.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/ming/ming.js",
-      "mirror_sha256": "bd0f4e67ae73fdd083b10c1e802912d8c9ade1b2b14a0dead865d7af0b90d991"
     },
     {
       "source_url": "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/QQMusic.png",
@@ -13292,34 +12947,6 @@
       "mirror_sha256": "34582e23a6f00aa402fbd84ca9991eb629a97652f2b4268120914bbbed6436e2"
     },
     {
-      "source_url": "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/EasyBike.png",
-      "kinds": [
-        "icon"
-      ],
-      "users": [
-        "EasyBike_remove_ads.lpx"
-      ],
-      "status": "failed",
-      "error": "HTTP Error 404: Not Found",
-      "mirror_path": "vendor/kelee/resources/raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/EasyBike.png",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/EasyBike.png",
-      "final_url": "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/EasyBike.png"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/EasyBike/mobileconfig-gateway.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "EasyBike_remove_ads.lpx"
-      ],
-      "status": "failed",
-      "error": "HTTP Error 404: Not Found",
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/EasyBike/mobileconfig-gateway.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/EasyBike/mobileconfig-gateway.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/EasyBike/mobileconfig-gateway.js"
-    },
-    {
       "source_url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png",
       "kinds": [
         "icon"
@@ -15707,38 +15334,6 @@
       "mirror_sha256": "6a296b2dc87b3c97cf8c8826a59df29e4b4792e269d7c27d2ee1aabcfc0d6497"
     },
     {
-      "source_url": "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Tencent_Video.png",
-      "kinds": [
-        "icon"
-      ],
-      "users": [
-        "Tencent_Video_remove_ads.lpx"
-      ],
-      "status": "downloaded",
-      "local_path": "resources/raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Tencent_Video.png",
-      "final_url": "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Tencent_Video.png",
-      "content_type": "image/png",
-      "bytes": 9264,
-      "sha256": "f7a9e7b5f16e86c7277d83021b6899af92cabda15450a1b8e38737de81303b67",
-      "mirror_path": "vendor/kelee/resources/raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Tencent_Video.png",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Tencent_Video.png",
-      "mirror_sha256": "f7a9e7b5f16e86c7277d83021b6899af92cabda15450a1b8e38737de81303b67"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/JavaScript/CommonScript/replace-body.js",
-      "kinds": [
-        "script"
-      ],
-      "users": [
-        "Tencent_Video_remove_ads.lpx"
-      ],
-      "status": "failed",
-      "error": "HTTP Error 404: Not Found",
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/CommonScript/replace-body.js",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/CommonScript/replace-body.js",
-      "final_url": "https://kelee.one/Resource/JavaScript/CommonScript/replace-body.js"
-    },
-    {
       "source_url": "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Weidian.png",
       "kinds": [
         "icon"
@@ -16281,23 +15876,8 @@
       "mirror_path": "vendor/kelee/resources/kelee.one/Resource/JavaScript/PinDuoDuo/9410-b8806e870a26db7d.js",
       "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/JavaScript/PinDuoDuo/9410-b8806e870a26db7d.js",
       "mirror_sha256": "e8e4f0e81525d314a7bc6af0fa45600b7d49b098f71f53ab36155d9ebd327ba7"
-    },
-    {
-      "source_url": "https://kelee.one/Resource/Script/WexinMiniPrograms/chayanyuese/cyys1.jpg",
-      "kinds": [
-        "nested_resource"
-      ],
-      "users": [
-        "WexinMiniPrograms_Remove_ads.lpx"
-      ],
-      "referenced_from": [
-        "resources/kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js"
-      ],
-      "status": "failed",
-      "error": "HTTP Error 404: Not Found",
-      "mirror_path": "vendor/kelee/resources/kelee.one/Resource/Script/WexinMiniPrograms/chayanyuese/cyys1.jpg",
-      "mirror_url": "https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/kelee.one/Resource/Script/WexinMiniPrograms/chayanyuese/cyys1.jpg",
-      "final_url": "https://kelee.one/Resource/Script/WexinMiniPrograms/chayanyuese/cyys1.jpg"
     }
-  ]
+  ],
+  "upstream_catalog_sha256": "a0906f7b643cfa3fb46bb8cf8f475d741529c2da9f8b3205954ea94580fec185",
+  "catalog_path": "vendor/kelee/catalog.json"
 }
