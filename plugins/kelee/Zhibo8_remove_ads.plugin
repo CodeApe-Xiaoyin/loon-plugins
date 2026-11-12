@@ -1,17 +1,18 @@
-# Upstream snapshot from https://kelee.one/Tool/Loon/Lpx/Zhibo8_remove_ads.lpx
-# Snapshot 2026-11-10. Static dependencies use kelee-snapshot-2026-11-10.
-# Preserves upstream authors. Security review is pending. See vendor/kelee/README.md.
-#!name=直播吧去广告
-#!desc=移除信息流广告、横幅广告、弹窗广告、皮肤配置、悬浮挂件、热门搜索，移除青少年模式，精简我的页面。
+# Based on https://kelee.one/Tool/Loon/Lpx/Zhibo8_remove_ads.lpx
+# Upstream author: 可莉🅥. Upstream license: CC BY-NC-SA 4.0.
+# Modified by 落痕 on 2026-11-12: merged splash and home ad-slot configuration blocking.
+# See docs/zhibo8.md for attribution and version history.
+#!name=直播吧去广告（合并版）
+#!desc=v0.2.0 · 可莉规则与落痕广告配置拦截合并。禁用开屏、首页等广告位，移除信息流广告、横幅广告、弹窗广告、皮肤配置、悬浮挂件、热门搜索，移除青少年模式，精简我的页面。
 #!openUrl=https://apps.apple.com/app/id1228058501
-#!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-#!tag=去广告
+#!author=可莉🅥, 落痕
+#!tag=去广告,直播吧
 #!system=
 #!system_version=
 #!loon_version=3.5.1(998)
-#!homepage=https://hub.kelee.one
-#!icon=https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/kelee-snapshot-2026-11-10/vendor/kelee/resources/raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Zhibo8.png
-#!date=2026-10-02 13:57:49
+#!homepage=https://github.com/CodeApe-Xiaoyin/loon-plugins
+#!icon=https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/icons/zhibo8.jpg
+#!date=2026-11-12
 
 [Rewrite]
 response if ${url} ~= /^https:\/\/headline\.qiumibao\.com\/recommend\/list\?/i then response.json.jq(".news|=map(select(.model==\"news\" or .model==\"video\"))")
@@ -39,6 +40,10 @@ response if ${url} ~= /^https:\/\/guess\.qiumibao\.com\/api\/c\/menu$/i then res
 response if ${url} ~= /^https:\/\/s\.qiumibao\.com\/m\/ios\/json\/zhibo\/zuqiu\/\d+\/match\d+vl\.htm\?/i then response.json.delete(["ep_v2", "ep_live"])
 
 request if ${url} ~= /^https:\/\/search\.qiumibao\.com\/hot\/word_list$/i then reject_dict(200)
+
+[Script]
+# 落痕补充：禁用 activities/config.php 中的广告位及开屏、插屏备选开关。
+response if ${url} ~= /^https?:\/\/a\.qiumibao\.com\/activities\/config\.php(?:\?|$)/ then script("https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/scripts/zhibo8.js") with requires_body=true, tag="落痕·直播吧广告配置"
 
 [MitM]
 hostname=headline.qiumibao.com, a.qiumibao.com, rn.qiumibao.com, guess.qiumibao.com, s.qiumibao.com, pre-match.qiumibao.com, search.qiumibao.com

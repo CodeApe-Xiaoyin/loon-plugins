@@ -1,5 +1,7 @@
 /**
- * 直播吧广告配置改写 v0.1.0
+ * 直播吧广告配置改写 · 合并版 v0.2.0
+ * 作者：落痕
+ * 贡献：禁用开屏、首页等广告位配置及开屏、插屏备选开关。
  * Loon http-response，需开启 requires_body。
  * 依据 2026-11-09 HAR 中的 advert_list / advert_config 结构编写。
  */
