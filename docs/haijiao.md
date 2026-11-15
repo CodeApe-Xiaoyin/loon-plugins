@@ -1,6 +1,6 @@
 # 海角视频解锁（修复版）
 
-当前版本为 **v0.3.1**，基于上游 Yu9191 Rewrite 的 Build 2026-08-22 修复。上游插件在 Loon 上解锁失效，原因与修复过程见下文。
+当前版本为 **v0.3.2**，基于上游 Yu9191 Rewrite 的 Build 2026-08-22 修复。上游插件在 Loon 上解锁失效，原因与修复过程见下文。
 
 ## 安装
 
@@ -61,9 +61,33 @@ HAR 侧对应：`topic` 响应 `modifiedResponse=true`，但载荷中 `currentUs
 - 入口处检查 `X-HJ-Internal` 请求头，命中则原样放行，不再处理脚本自身发起的请求，消除递归。
 - `topic` 处理时，若附件 `remoteUrl` 已是可用的非 preview 地址，直接复用，不再发起嵌套请求。
 
+## v0.3.2 针对的问题
+
+v0.3.1 实机测试仍不稳定：同一个插件下只有个别视频能解锁，其余帖子的补链请求失败。
+
+抓包对比发现，脚本自身发出的 `POST /api/attachment` 与页面自身发出的同名请求参数并不一致：
+
+| 字段 | 页面请求 | 脚本请求（v0.3.1 及以前） |
+| --- | --- | --- |
+| `resource_id` | 帖子 ID | 固定 `2174028` |
+| `line` | 空 | `normal1` |
+| `User-Agent` | iPhone Safari | Windows Chrome |
+| `Accept-Language` / `Referer` | 有 | 无 |
+
+页面的请求稳定返回真实 m3u8，脚本的请求多数直接失败（`status=0`、`wait=-1`、约 220ms 结束、`mitmHost` 为空）。同一份脚本在 Surge 上正常，判断与 Loon 脚本 HTTP 客户端的请求特征被站点边缘拦截有关。
+
+### v0.3.2 改动
+
+- 补链请求的 `User-Agent`、`Accept`、`Accept-Language`、`Referer` 改为取自原请求，不再写死 Windows UA。
+- `resource_id` 改为从 `topic` URL 提取帖子 ID，`line` 置空，与页面请求一致。
+- 补链失败时重试 3 次，间隔 300ms。
+- 版本标记更新为 v0.3.2。
+
 ## 验证结果
 
 已用 HAR 中的真实响应体在 Node 环境重放修复前后脚本：修复前 `$done` 收到的是 `$request` 对象（`body` 为空），修复后收到 `{status, headers, body}`，且 `currentUserPurchased`、`sale.is_buy` 均已写回。m3u8 规则与 MitM 通配已静态核对。
+
+v0.3.2：重放确认补链请求的 `resource_id` 已取到帖子 ID、`line` 为空、UA / Referer / Accept-Language 均取自原请求，失败时重试 3 次；解锁字段写回不受补链失败影响。
 
 手机端解锁与播放效果待实机复测。
 

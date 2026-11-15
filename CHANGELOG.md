@@ -1,5 +1,24 @@
 # 插件更新记录
 
+## 2026-11-15 · 海角视频解锁 · v0.3.2
+
+### 针对的问题
+
+v0.3.1 实机仍不稳定，只有个别视频能解锁。抓包对比脚本与页面各自发出的 `POST /api/attachment`：脚本用固定 `resource_id: 2174028`、`line: normal1`、Windows Chrome UA，且无 `Accept-Language`、`Referer`；页面用帖子 ID、空 `line`、iPhone Safari UA。页面请求稳定返回真实 m3u8，脚本请求多数失败（`status=0`、`wait=-1`、约 220ms 结束、`mitmHost` 为空）。
+
+### 本次改动
+
+- 补链请求的 `User-Agent`、`Accept`、`Accept-Language`、`Referer` 取自原请求。
+- `resource_id` 改为从 `topic` URL 提取帖子 ID，`line` 置空。
+- 补链失败重试 3 次，间隔 300ms。
+- 版本标记更新为 v0.3.2。
+
+### 验证结果
+
+Node 环境重放确认：补链请求的 `resource_id` 为帖子 ID、`line` 为空、UA 与 Referer 取自原请求；补链连续失败时解锁字段仍正常写回；带 `X-HJ-Internal` 的自身请求与已有可用地址两种情况均不发起补链。手机端效果待实机复测。
+
+---
+
 ## 2026-11-15 · 海角视频解锁 · v0.3.1
 
 ### 针对的问题
