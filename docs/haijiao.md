@@ -1,6 +1,6 @@
 # 海角视频解锁（修复版）
 
-当前版本为 **v0.3.2**，基于上游 Yu9191 Rewrite 的 Build 2026-08-22 修复。上游插件在 Loon 上解锁失效，原因与修复过程见下文。
+当前版本为 **v0.3.3**，基于上游 Yu9191 Rewrite 的 Build 2026-08-22 修复。上游插件在 Loon 上解锁失效，原因与修复过程见下文。
 
 ## 安装
 
@@ -83,11 +83,30 @@ v0.3.1 实机测试仍不稳定：同一个插件下只有个别视频能解锁�
 - 补链失败时重试 3 次，间隔 300ms。
 - 版本标记更新为 v0.3.2。
 
+## v0.3.3 针对的问题
+
+v0.3.2 实机测试：补链请求的 UA、Referer、`resource_id` 已与页面一致，重试也能拿到 HTTP 200，但正文仍未注入。
+
+抓包显示补链请求的 200 响应内容是：
+
+```json
+{"isEncrypted":false,"success":false,"errorCode":0,"data":null}
+```
+
+服务端拒绝了这次请求。对比发现 v0.3.2 从 URL 提取的帖子 ID 是字符串，请求体为 `"resource_id":"2259191"`；页面自身请求是数值 `"resource_id":2259191`。服务端按类型判定后返回 `success:false`，脚本因此拿不到 `data`，`f()` 返回 null，正文不注入。
+
+### v0.3.3 改动
+
+- `resource_id` 改为数值传递，与页面请求完全一致。
+- 版本标记更新为 v0.3.3。
+
 ## 验证结果
 
 已用 HAR 中的真实响应体在 Node 环境重放修复前后脚本：修复前 `$done` 收到的是 `$request` 对象（`body` 为空），修复后收到 `{status, headers, body}`，且 `currentUserPurchased`、`sale.is_buy` 均已写回。m3u8 规则与 MitM 通配已静态核对。
 
 v0.3.2：重放确认补链请求的 `resource_id` 已取到帖子 ID、`line` 为空、UA / Referer / Accept-Language 均取自原请求，失败时重试 3 次；解锁字段写回不受补链失败影响。
+
+v0.3.3：重放确认请求体为 `{"id":14320944,"resource_id":2297225,"resource_type":"topic","line":""}`，`resource_id` 为数值。
 
 手机端解锁与播放效果待实机复测。
 

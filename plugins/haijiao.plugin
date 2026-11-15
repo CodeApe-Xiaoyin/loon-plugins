@@ -3,7 +3,7 @@
 # Modified by 落痕 on 2026-11-15: 修复 Loon 上解锁失效、嵌套请求递归与 m3u8 线路主机不匹配。
 # See docs/haijiao.md for attribution and version history.
 #!name=海角视频解锁（修复版）
-#!desc=v0.3.2 · 移除广告位、解锁付费与金币帖、还原 m3u8 解密 key。需登录账号。
+#!desc=v0.3.3 · 移除广告位、解锁付费与金币帖、还原 m3u8 解密 key。需登录账号。
 #!author=Yu9191 Rewrite, 落痕
 #!tag=18+,解锁
 #!system=
