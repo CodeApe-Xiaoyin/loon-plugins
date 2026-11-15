@@ -7,8 +7,9 @@
 | 图标 | App | 插件 | 状态 | 使用说明 |
 | --- | --- | --- | --- | --- |
 | <img src="icons/zhibo8.jpg" width="32" height="32" alt="直播吧图标"> | 直播吧 | [Zhibo8_remove_ads.plugin](https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/kelee/Zhibo8_remove_ads.plugin) | v0.2.0 合并版 · 可莉🅥、落痕 | [直播吧说明](docs/zhibo8.md) |
+| - | 海角视频 | [haijiao.plugin](https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/haijiao.plugin) | v0.3.0 修复版 · Yu9191 Rewrite、落痕 | [海角说明](docs/haijiao.md) |
 
-本仓库维护直播吧插件，并归档可莉插件中心的 272 个明文插件配置。
+本仓库维护直播吧与海角视频插件，并归档可莉插件中心的 272 个明文插件配置。
 
 [查看全部上游插件快照](plugins/kelee/README.md) · [快照说明与来源](vendor/kelee/README.md) · [静态检查标记](vendor/kelee/REVIEW.md)
 
