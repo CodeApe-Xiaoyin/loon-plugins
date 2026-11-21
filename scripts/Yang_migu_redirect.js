@@ -1,5 +1,8 @@
 /**
- * 移动咪咕直播 302 地址修复
+ * Yang移动咪咕-重定向
+ * 基于 Yang（YanG-1989）的咪咕源进行修复。
+ * 源作者仓库：https://github.com/YanG-1989/m3u
+ * 原始咪咕源：https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Migu.m3u
  *
  * 将调度接口返回的坏 IP:6060 Location 改为咪咕 CDN 主机，保留完整路径和鉴权查询参数。
  * 验证过的播放链路：M3U8 HTTP 200，首个 TS 分片 HTTP 200。

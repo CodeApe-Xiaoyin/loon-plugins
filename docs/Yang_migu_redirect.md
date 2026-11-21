@@ -1,5 +1,7 @@
 # Yang移动咪咕-重定向
 
+本插件基于 Yang（YanG-1989）的咪咕源进行修复。源作者仓库为 [YanG-1989/m3u](https://github.com/YanG-1989/m3u)，原始源文件为 [Migu.m3u](https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Migu.m3u)。
+
 ## 安装
 
 ```text
