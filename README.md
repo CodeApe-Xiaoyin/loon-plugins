@@ -50,3 +50,13 @@ vendor/kelee/     上游原件、依赖、来源清单与许可文本
 ## 参考
 
 - [Loon 插件文档](https://nsloon.app/docs/Plugin/)
+
+## 移动咪咕直播修复
+
+插件地址如下。它只处理咪咕调度接口返回的 302 地址，不修改订阅文件。
+
+```text
+https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/migu_repair.plugin
+```
+
+真实验证已通过 M3U8 HTTP 200 和首个 TS 分片 HTTP 200。安装后保持原始移动咪咕 M3U，启用插件并刷新频道。
