@@ -1,7 +1,8 @@
-#!name = 移动咪咕直播地址修复
+#!name = Yang移动咪咕-重定向
 #!desc = 修复移动咪咕调度 302 返回坏 IP:6060 导致的播放失败，保留原始 M3U 不变。
 #!author = 落痕
 #!homepage = https://github.com/CodeApe-Xiaoyin/loon-plugins
+#!icon = https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/icons/migu.jpg
 #!loon_version = 3.5.1(998)
 #!date = 2026-11-21
 #!tag = 咪咕,直播,播放修复
@@ -11,4 +12,4 @@
 cache.ott.fifalive.itv.cmvideo.cn = base-v4v6-cm-miguvideo.e.cdn.chinamobile.com
 
 [Script]
-http-response ^http:\/\/gslbserv\.itv\.cmvideo\.cn\/index\.m3u8(?:\?|$) script-path=https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/scripts/migu_redirect_fix.js,tag=移动咪咕 302 地址修复
+http-response ^http:\/\/gslbserv\.itv\.cmvideo\.cn\/index\.m3u8(?:\?|$) script-path=https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/scripts/Yang_migu_redirect.js,tag=Yang移动咪咕 302 重定向

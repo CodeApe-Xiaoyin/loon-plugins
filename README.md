@@ -7,6 +7,7 @@
 | 图标 | App | 插件 | 状态 | 使用说明 |
 | --- | --- | --- | --- | --- |
 | <img src="icons/zhibo8.jpg" width="32" height="32" alt="直播吧图标"> | 直播吧 | [Zhibo8_remove_ads.plugin](https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/kelee/Zhibo8_remove_ads.plugin) | v0.2.0 合并版 · 可莉🅥、落痕 | [直播吧说明](docs/zhibo8.md) |
+| <img src="icons/migu.jpg" width="32" height="32" alt="咪咕图标"> | Yang移动咪咕 | [Yang_migu_redirect.plugin](https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/Yang_migu_redirect.plugin) | v0.1.0 · 2026-11-21 | [咪咕说明](docs/Yang_migu_redirect.md) |
 | - | 海角视频 | [haijiao.plugin](https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/haijiao.plugin) | v0.3.4 修复版 · Yu9191 Rewrite、落痕 | [海角说明](docs/haijiao.md) |
 
 本仓库维护直播吧与海角视频插件，并归档可莉插件中心的 272 个明文插件配置。
@@ -51,12 +52,12 @@ vendor/kelee/     上游原件、依赖、来源清单与许可文本
 
 - [Loon 插件文档](https://nsloon.app/docs/Plugin/)
 
-## 移动咪咕直播修复
+## Yang移动咪咕-重定向
 
 插件地址如下。它只处理咪咕调度接口返回的 302 地址，不修改订阅文件。
 
 ```text
-https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/migu_repair.plugin
+https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/Yang_migu_redirect.plugin
 ```
 
 真实验证已通过 M3U8 HTTP 200 和首个 TS 分片 HTTP 200。安装后保持原始移动咪咕 M3U，启用插件并刷新频道。

@@ -1,9 +1,9 @@
-# 移动咪咕直播地址修复
+# Yang移动咪咕-重定向
 
 ## 安装
 
 ```text
-https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/migu_repair.plugin
+https://raw.githubusercontent.com/CodeApe-Xiaoyin/loon-plugins/main/plugins/Yang_migu_redirect.plugin
 ```
 
 保持原始 M3U 订阅，不替换频道地址。插件匹配 `gslbserv.itv.cmvideo.cn/index.m3u8` 的 HTTP 响应。
